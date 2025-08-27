@@ -7,7 +7,7 @@
 
 import re
 
-texto = "me atragante con 3 o con 4?"
+texto = "Alemania vs Brasil 7-1"
 
 # Expresión regular para enteros (positivos y negativos)
 patron = r"-?\b\d+\b"
