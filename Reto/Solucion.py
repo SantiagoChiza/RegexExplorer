@@ -1,6 +1,6 @@
 
 import re
-texto="En la maratón número 12, el corredor llamado \"Carlos\" completó la carrera en 3.75 horas, registrando tiempos parciales en kilómetros [5, 10, 15, 20, 25, 30, 35, 40] minutos; aunque estaba fatigado, su condición física estaba óptima y logró mantener el ritmo constante gracias a que el entrenamiento previo fue exitoso."
+texto="En la maratón número 12, el corredor llamado \"Carlos\" completó la carrera en 3.75 horas, registrando tiempos parciales en kilómetros [5, 10, 15, 20, 25, 30, 35, 40] minutos; aunque estaba fatigado, su condición física estaba óptima y logró mantener el ritmo constante gracias a que el entrenamiento previo fue exitoso, sera True o sera False."
 patron1 = r"-?\b\d+\b"
 patron2 = r"-?\b\d+\.\d+\b"
 patron3 = r"\b(True|False)\b"
