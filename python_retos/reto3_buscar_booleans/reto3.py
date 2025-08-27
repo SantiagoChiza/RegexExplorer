@@ -7,7 +7,7 @@
 
 import re
 
-texto = "La respuesta es True, pero a veces es False."
+texto = "Es False que tengo 19, es True que estudio ing. sistemas "
 
 # Expresión regular para booleanos (True o False, case-insensitive)
 patron = r"\b(True|False)\b"
